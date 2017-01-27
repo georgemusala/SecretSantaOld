@@ -1,0 +1,78 @@
+ body 
+	{
+        color: darkred;
+        background-color: mistyrose;
+    }
+
+ h1
+    {
+		text-align: center;
+    }
+
+ nav 
+ 	{
+ 	    float: left;
+ 	}
+
+ .navigItem, .navigItem:visited
+    {
+    	display:inline-block;
+        color: black;
+    	background-color: darksalmon;
+    	text-decoration: none;
+        text-align: center;
+        width: 135px;
+    	padding: 10px;
+    }
+
+ .navigItem:hover
+		    {
+		 
+ 			 	color: black;
+ 			 	background-color: red;
+ 			 }
+ 			 
+ #logout
+ 	{
+ 		display:inline-block;
+        color: white;
+    	background-color: #400000;
+    	text-decoration: none;
+        text-align: center;
+        width: 135px;
+    	padding: 10px;
+ 		
+ 	}
+ 
+ #logout:hover
+		    {
+		 
+ 			 	color: white;
+ 			 	background-color: #100000;
+ 			 }
+  #page
+  		{
+ 			margin: 0 auto;
+			width:1050px;
+ 		} 
+
+ div.text
+     {
+     	margin-left: 170px;
+     	border-left: 1px solid gray;
+     	padding: 30px;
+        padding-top: 0px;
+        min-height: 400px;
+     }
+
+nav ul {
+          list-style-type:none;
+          padding: 0px;
+
+        }
+
+nav ul li {
+            padding:10px;
+            padding-left:0px;
+        }
+ 			 		
